@@ -136,6 +136,7 @@ $(document).ready(function () {
     var $custom_dl = $('.custom-dl');
     var $ckbx = $('.ckbx');
 
+    // Do it to < only because we want to ignore ClaCSS box choice.
     for (var i = 0; i < $ckbx.length; i++) {
         if ($ckbx.eq(i).hasClass('selected')) {
             var id_associated = $ckbx.eq(i).attr('id');
@@ -146,7 +147,7 @@ $(document).ready(function () {
     /* The checkbox make it green (selected) or grey (unselected) */
     $ckbx.on('click', function (event) {
         event.preventDefault();
-
+        
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
             $(this).addClass('unselected');
@@ -182,7 +183,7 @@ $(document).ready(function () {
         button_to_right();
     });
 
-    var textem = '';
+   var textem = '';
     $('.custom-dl-btn button').on('click', function () {
         /* Copy allText from a file */
         function readTextFile(file) {
@@ -203,12 +204,7 @@ $(document).ready(function () {
         for (var i = 0; i < el_selected.length; i++) {
             if (el_selected[i] !== 'claCss') {
                 textem += readTextFile(el_selected[i]);
-                console.log(" on a " + i);
-            } else {
-                $('#claCss').find('a').click();
-                // add link to a
-                $('.text-to-head').find('pre code').append('&lt;script src="ClaCss.js"&gt;&lt;/script&gt;');
-            }
+        }
         }
 
         /* Make downloadable link and launch it to user */ 
@@ -263,7 +259,6 @@ $(document).ready(function () {
         })();
 
     });
-
     /***********************************/
     /*  
     /* Little things.
