@@ -126,6 +126,11 @@ $(document).ready(function () {
         window.scrollTo(window.scrollX, window.scrollY - 100);
     });
 
+    /* Remove the anchor when the use click on a element. */
+    $(window).on('hashchange', function(e){
+        history.replaceState ("", document.title, e.originalEvent.oldURL);
+    });
+
     /***********************************/
     /*  
     /* Make custom framework.
@@ -328,6 +333,7 @@ $(document).ready(function () {
             scrollTop: $('#build-yours-bs').offset().top-100
         }, 500);
     });
+    
 
 
 });
