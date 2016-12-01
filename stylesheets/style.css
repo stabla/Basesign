@@ -395,12 +395,13 @@
 /* line 258, ../sass/style.scss */
 .build-yours .choice-case .box-b {
   flex: 1;
+  padding: 33px 0;
 }
-/* line 262, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 .build-yours .ckbx {
   padding: 33px;
 }
-/* line 265, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .build-yours .custom-checkbox {
   margin: 20px;
   font-size: 1.9em;
@@ -410,12 +411,12 @@
   box-shadow: 1px 1px 5px 0px rgba(232, 232, 232, 0.64);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-/* line 274, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .build-yours .custom-dl-btn {
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 277, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .build-yours .custom-dl-btn .custom-btn {
   border: 1px solid #9a8297;
   padding: 0.6457em 0.92857143em;
@@ -426,74 +427,74 @@
   color: #9a8297;
   transition: all 0.6s ease;
 }
-/* line 286, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .build-yours .custom-dl-btn .custom-btn:hover {
   background-color: #9a8297;
   color: #fff;
 }
 
-/* line 294, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .footer {
   background: linear-gradient(45deg, #243B55, #141E30);
 }
 
 /* tool */
-/* line 301, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 .custom-color-brand {
   color: #243B55;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 .custom-color-grey {
   color: rgba(123, 137, 148, 0.595);
 }
 
-/* line 309, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .custom-color-grey-2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 313, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .custom-color-greyer {
   color: rgba(123, 137, 148, 0.945);
 }
 
-/* line 317, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .custom-color-blank {
   color: #d6e1e5;
 }
 
-/* line 321, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .custom-bg-grey-clear {
   background-color: rgba(123, 137, 148, 0.142) !important;
 }
 
-/* line 325, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .custom-bg-grey {
   background-color: rgba(123, 137, 148, 0.7) !important;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .custom-bg-greyer {
   background-color: rgba(123, 137, 148, 0.8) !important;
 }
 
-/* line 333, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .selected {
   background: #81c784;
 }
-/* line 335, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .selected:hover {
   background-color: #A5D6A7;
 }
 
-/* line 340, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .unselected {
   background: rgba(0, 0, 0, 0.052);
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 345, ../sass/style.scss */
+/* line 346, ../sass/style.scss */
 .move-to-left {
   right: 0px;
   border: 1px solid #fff;
@@ -506,7 +507,7 @@
   transition: all 0.9s ease;
 }
 
-/* line 357, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 p code,
 li code {
   color: #c7254e;
