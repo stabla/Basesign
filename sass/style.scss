@@ -24,6 +24,13 @@
         display: block !important;
         width: 100% !important;
     }
+    .nav-right  {
+        width: 60%;
+        .butt-container div {
+            display: inline-block !important;
+        }
+        
+    }
 }
 
 
@@ -99,7 +106,7 @@
 }
 
 .nav-right {
-    margin-right: -12px;
+    margin-right: -10px;
 }
 
 .brand {
