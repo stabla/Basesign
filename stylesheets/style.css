@@ -116,6 +116,11 @@
 }
 
 /* line 101, ../sass/style.scss */
+.nav-right {
+  margin-right: -12px;
+}
+
+/* line 105, ../sass/style.scss */
 .brand {
   position: relative;
   left: -150px;
@@ -125,12 +130,12 @@
   transition: all 0.5s ease;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .brand-show {
   left: 0px;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 #menu-btn {
   background: 0 0;
   border-radius: .28571429rem;
@@ -144,29 +149,29 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 126, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 #menu-btn:hover {
   background-color: rgba(255, 255, 255, 0.08);
   color: #fff;
   fill: #fff;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .butt-github_twitter div:first-child {
   margin-bottom: 5px;
 }
 
-/* line 137, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .header-hero {
   height: 550px;
   background: linear-gradient(45deg, #243B55, #141E30);
 }
-/* line 140, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .header-hero .hero-text {
   padding-top: 180px;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .butt-get_started {
   border-radius: .28571429rem;
   border: 1px solid white;
@@ -179,39 +184,39 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* line 157, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .header-frame {
   margin-top: 9rem;
 }
 
-/* line 161, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 #computer-svg {
   height: 200px;
   width: 200px;
   margin: 0 15px;
 }
 
-/* line 167, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 #smartphone-svg {
   height: 80px;
   width: 80px;
 }
 
-/* line 172, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 #tablet-svg {
   height: 120px;
   width: 120px;
 }
 
 /* Document blood */
-/* line 180, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .box-exemple {
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 0.25em;
   margin: 2em 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 185, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .box-exemple .title-exemple {
   padding: 10px;
   text-transform: uppercase;
@@ -219,11 +224,11 @@
   color: rgba(0, 0, 0, 0.22);
   font-size: 1.7rem;
 }
-/* line 191, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .box-exemple .title-exemple:before {
   content: 'Exemple';
 }
-/* line 196, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .box-exemple .code-exemple .title-code {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 1.6rem;
@@ -231,19 +236,19 @@
   color: rgba(0, 0, 0, 0.22);
   padding: 10px;
 }
-/* line 202, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .box-exemple .code-exemple .title-code:before {
   content: '< / > Exemple ';
 }
-/* line 206, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 .box-exemple .code-exemple .inside {
   display: none;
 }
-/* line 208, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .box-exemple .code-exemple .inside pre {
   margin: 0;
 }
-/* line 212, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 .box-exemple .code-exemple .title-result {
   padding: 10px;
   text-transform: uppercase;
@@ -251,12 +256,12 @@
   color: rgba(0, 0, 0, 0.22);
   font-size: 1.6rem;
 }
-/* line 218, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .box-exemple .code-exemple .title-result:before {
   content: "Result";
 }
 
-/* line 226, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 .grid-bs .row .cl-8 .cl {
   height: 2.8444rem;
   border-radius: .28571429rem;
@@ -264,120 +269,120 @@
   margin-bottom: 2.8444rem;
   overflow: auto;
 }
-/* line 232, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .grid-bs .row .cl-8 .cl .no-content-box {
   background-clip: border-box;
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(1) {
   background-color: rgba(123, 137, 148, 0.025);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(2) {
   background-color: rgba(123, 137, 148, 0.05);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(3) {
   background-color: rgba(123, 137, 148, 0.075);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(4) {
   background-color: rgba(123, 137, 148, 0.1);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(5) {
   background-color: rgba(123, 137, 148, 0.125);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(6) {
   background-color: rgba(123, 137, 148, 0.15);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(7) {
   background-color: rgba(123, 137, 148, 0.175);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(8) {
   background-color: rgba(123, 137, 148, 0.2);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(9) {
   background-color: rgba(123, 137, 148, 0.225);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(10) {
   background-color: rgba(123, 137, 148, 0.25);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(11) {
   background-color: rgba(123, 137, 148, 0.275);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(12) {
   background-color: rgba(123, 137, 148, 0.3);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(13) {
   background-color: rgba(123, 137, 148, 0.325);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(14) {
   background-color: rgba(123, 137, 148, 0.35);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(15) {
   background-color: rgba(123, 137, 148, 0.375);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(16) {
   background-color: rgba(123, 137, 148, 0.4);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(17) {
   background-color: rgba(123, 137, 148, 0.425);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(18) {
   background-color: rgba(123, 137, 148, 0.45);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(19) {
   background-color: rgba(123, 137, 148, 0.475);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(20) {
   background-color: rgba(123, 137, 148, 0.5);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(21) {
   background-color: rgba(123, 137, 148, 0.525);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(22) {
   background-color: rgba(123, 137, 148, 0.55);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(23) {
   background-color: rgba(123, 137, 148, 0.575);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(24) {
   background-color: rgba(123, 137, 148, 0.6);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(25) {
   background-color: rgba(123, 137, 148, 0.625);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(26) {
   background-color: rgba(123, 137, 148, 0.65);
 }
-/* line 237, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .grid-bs .row .cl:nth-child(27) {
   background-color: rgba(123, 137, 148, 0.675);
 }
 
-/* line 243, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 #build-yours-bs {
   background-image: -webkit-linear-gradient(179deg, #81c784, rgba(0, 0, 0, 0.052));
   background-image: linear-gradient(179deg, #81c784, rgba(0, 0, 0, 0.052));
@@ -388,20 +393,20 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* line 255, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .build-yours .choice-case .box-a {
   width: 60%;
 }
-/* line 258, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .build-yours .choice-case .box-b {
   flex: 1;
   padding: 33px 0;
 }
-/* line 263, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .build-yours .ckbx {
   padding: 33px;
 }
-/* line 266, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .build-yours .custom-checkbox {
   margin: 20px;
   font-size: 1.9em;
@@ -411,12 +416,12 @@
   box-shadow: 1px 1px 5px 0px rgba(232, 232, 232, 0.64);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-/* line 275, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .build-yours .custom-dl-btn {
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 278, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .build-yours .custom-dl-btn .custom-btn {
   border: 1px solid #9a8297;
   padding: 0.6457em 0.92857143em;
@@ -427,74 +432,74 @@
   color: #9a8297;
   transition: all 0.6s ease;
 }
-/* line 287, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .build-yours .custom-dl-btn .custom-btn:hover {
   background-color: #9a8297;
   color: #fff;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .footer {
   background: linear-gradient(45deg, #243B55, #141E30);
 }
 
 /* tool */
-/* line 302, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 .custom-color-brand {
   color: #243B55;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .custom-color-grey {
   color: rgba(123, 137, 148, 0.595);
 }
 
-/* line 310, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .custom-color-grey-2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 314, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .custom-color-greyer {
   color: rgba(123, 137, 148, 0.945);
 }
 
-/* line 318, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .custom-color-blank {
   color: #d6e1e5;
 }
 
-/* line 322, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .custom-bg-grey-clear {
   background-color: rgba(123, 137, 148, 0.142) !important;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .custom-bg-grey {
   background-color: rgba(123, 137, 148, 0.7) !important;
 }
 
-/* line 330, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .custom-bg-greyer {
   background-color: rgba(123, 137, 148, 0.8) !important;
 }
 
-/* line 334, ../sass/style.scss */
+/* line 338, ../sass/style.scss */
 .selected {
   background: #81c784;
 }
-/* line 336, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .selected:hover {
   background-color: #A5D6A7;
 }
 
-/* line 341, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .unselected {
   background: rgba(0, 0, 0, 0.052);
   color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 346, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 .move-to-left {
   right: 0px;
   border: 1px solid #fff;
@@ -507,7 +512,7 @@
   transition: all 0.9s ease;
 }
 
-/* line 358, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 p code,
 li code {
   color: #c7254e;
