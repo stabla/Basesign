@@ -188,7 +188,7 @@ $(document).ready(function () {
         function readTextFile(file) {
             var allText;
             $.ajax({
-                url: "https://github.com/stabla/Basesign/blob/master/stylesheets/" + file + ".css",
+                url: "Basesign/stylesheets/" + file + ".css",
                 async: false,
                 dataType: 'text',
                 success: function (data) {
