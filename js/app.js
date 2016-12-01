@@ -99,7 +99,7 @@ $(document).ready(function () {
             
             
             $(this).addClass('active');
-            $page.addClass('p-relative');
+            $page.addClass('p_relative');
             $page.animate({
                 'left': $menu_width
             });

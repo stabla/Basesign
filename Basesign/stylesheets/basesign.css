@@ -1120,7 +1120,7 @@ Pre-build classes to use
   margin: 15px;
 }
 
-.ma-reset {
+.ma_reset {
   padding: 0 !important;
 }
 
@@ -1128,23 +1128,23 @@ Pre-build classes to use
   padding: 15px;
 }
 
-.pa-reset {
+.pa_reset {
   padding: 0 !important;
 }
 
-.c-transparent {
+.c_transparent {
   color: transparent;
 }
 
-.bg-transparent {
+.bg_transparent {
   background-color: transparent;
 }
 
-.bg-none {
+.bg_none {
   background-color: none;
 }
 
-.bo-c-transparent {
+.bo-c_transparent {
   border-color: transparent;
 }
 
@@ -1187,7 +1187,7 @@ Pre-build classes to use
 */
 /* float or center a block.
     ================================================== */
-.fl-l {
+.fl_l {
   float: left;
 }
 
@@ -1196,11 +1196,11 @@ Pre-build classes to use
   margin: 0 auto;
 }
 
-.fl-r {
+.fl_r {
   float: right;
 }
 
-.fl-none {
+.fl_none {
   float: none;
 }
 
@@ -1250,24 +1250,24 @@ Pre-build classes to use
 
 /* display
     ================================================== */
-.d-block {
+.d_block {
   display: block;
 }
 
-.d-inline-block {
+.d_inline-block {
   display: inline-block;
 }
 
-.d-none {
+.d_none {
   display: none;
 }
 
-.d-inline {
+.d_inline {
   display: inline;
 }
 
 /* Flex have to be prefixed. http://shouldiprefix.com/ */
-.d-flex {
+.d_flex {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   display: -ms-flexbox;
@@ -1278,7 +1278,7 @@ Pre-build classes to use
   /* NEW, Spec - Firefox, Chrome, Opera */
 }
 
-.d-inline-flex {
+.d_inline-flex {
   display: inline-flex;
 }
 
@@ -1382,93 +1382,93 @@ ul.li-rl-space li {
 
 /* text-align
     ================================================== */
-.t-l {
+.t_l {
   text-align: left;
 }
 
-.t-center {
+.t_center {
   text-align: center;
 }
 
-.t-r {
+.t_r {
   text-align: right;
 }
 
-.t-justify {
+.t_justify {
   text-align: justify;
 }
 
-.t-inherit {
+.t_inherit {
   text-align: inherit;
 }
 
 /* vertical-align
     ================================================== */
-.v-baseline {
+.v_baseline {
   vertical-align: baseline;
 }
 
-.v-top {
+.v_top {
   vertical-align: top;
 }
 
-.v-bottom {
+.v_bottom {
   vertical-align: bottom;
 }
 
-.v-middle {
+.v_middle {
   vertical-align: middle;
 }
 
-.v-inherit {
+.v_inherit {
   vertical-align: inherit;
 }
 
 /* overflow
     ================================================== */
-.o-auto {
+.o_auto {
   overflow: auto;
 }
 
-.o-hidden {
+.o_hidden {
   overflow: hidden;
 }
 
-.o-inherit {
+.o_inherit {
   overflow: inherit;
 }
 
-.o-scroll {
+.o_scroll {
   overflow: scroll;
 }
 
-.o-visible {
+.o_visible {
   overflow: visible;
 }
 
 /* position
     ================================================== */
-.p-absolute {
+.p_absolute {
   position: absolute;
 }
 
-.p-fixed {
+.p_fixed {
   position: fixed;
 }
 
-.p-inherit {
+.p_inherit {
   position: inherit;
 }
 
-.p-relative {
+.p_relative {
   position: relative;
 }
 
-.p-static {
+.p_static {
   position: static;
 }
 
-.p-sticky {
+.p_sticky {
   position: sticky;
 }
 
