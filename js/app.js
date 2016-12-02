@@ -9,7 +9,7 @@ $(document).ready(function () {
     /* Change opacity for hero-text.
     /*
     /*****************************/
-    var fadestart = $header.height() / 4;
+    var fadestart = $header.height() / 32;
     var fadeUntil = 420;
     var opacity = 0;
 
