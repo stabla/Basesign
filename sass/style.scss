@@ -24,18 +24,21 @@
         display: block !important;
         width: 100% !important;
     }
-    .nav-right  {
-        width: 60%;
+    .nav-right {
+        display: none;
+    }
+    .header-hero .butt-github_twitter {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
         .butt-container div {
+            margin-top: 20px;
             display: inline-block !important;
         }
-        
     }
-}
-
+    }
 
 /* Menu */
-
 .menu {
     a p {
         color: rgba(255, 255, 255, .5);

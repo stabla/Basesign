@@ -43,7 +43,7 @@ $(document).ready(function () {
         $hero_text.css({
             'opacity': opacity
         })
-
+        
         /* Nav-bar when scrolling */
         if ($scroll > whenToChange) { 
             $navbar.addClass('background-dark');
@@ -95,7 +95,7 @@ $(document).ready(function () {
       if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         $('.nav-bar').animate({'left':$menu_width});
     }
-        
+            
             
             
             $(this).addClass('active');
