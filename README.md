@@ -22,7 +22,7 @@ If you want more complete Basesign version, you can have :
 1. [ClaCss.js](#user-content-6-clacssjs) - Write you CSS with Class
 1. [Only if you don't use ClaCss.js](#user-content-7-only-if-you-dont-use-clacssjs)
 1. [Good Google Fonts & Beautiful Web Typ](#user-content-8-good-google-fonts--beautiful-web-type)
-1. [HackDesign](#user-content-hackdesign)
+1. [HackDesign](#user-content-9-hackdesign)
 1. [Design tips](#user-content-some-tips)
 
 ### 1. Light Basesign
@@ -254,7 +254,7 @@ When you use ClaCss.js you can have a lighter Basesign. I don't recommend to use
 
 ### 8. [Good Google Fonts](https://github.com/stabla/good-google-fonts) & [Beautiful Web Type](https://github.com/ubuwaits/beautiful-web-type)
 
-## 9. [HackDesign](www.hackdesign.org)
+## 9. [HackDesign](http://www.hackdesign.org)
 
 ## 10. Some tips
 - Newsletters with columns will look better if you use the Justified Alignment.
