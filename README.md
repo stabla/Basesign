@@ -26,7 +26,7 @@ If you want more complete Basesign version, you can have :
 1. [Design tips](#user-content-some-tips)
 
 ### 1. Light Basesign
-The light version is for making an elegant website, it's improving size, setting a ```box-sizing: border-box``` to ```*```, or a basic ```margin: 0``` and ```padding: 0``` to ```body, html```. Anyway, it's not [Noramlise.css]( https://necolas.github.io/normalize.css/), but it's still relevant (I hope so).
+The light version is for making an elegant website, it's improving size, setting a ```box-sizing: border-box``` to ```*```, or a basic ```margin: 0``` and ```padding: 0``` to ```body, html```. Anyway, it's not [Normalize.css]( https://necolas.github.io/normalize.css/), but it's still relevant (I hope so).
 
 You have not to write anything. No class, no id to add to your html.
 
