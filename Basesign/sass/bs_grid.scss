@@ -3,13 +3,23 @@
 }
 
 .row .center {
-  margin: 0 auto;
-  display: block;
-  float: none;
+    margin: 0 auto;
+    display: block;
+    float: none;
 }
 
-.cl-0 {
-    display: none;
+$i: 1;
+$list: ".cl-#{$i}, .cl-s-#{$i}, .cl-xs-#{$i}";
+@for $i from (1 + 1) through 12 {
+    $list: "#{$list}, .cl-#{$i}, .cl-s-#{$i}, .cl-xs-#{$i}";
+}
+
+#{$list} {
+    display: inline-block;
+    margin-right: -.25em;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 $width-val: 100%/12;
@@ -23,51 +33,48 @@ $width-val: 100%/12;
 }
 
 // When responsive
-@media screen and (max-width: 780px) {
+@media (max-width: 780px) {
     @for $i from 1 through 12 {
-    .cl-s-#{$i} {
-        width: $width-val * $i;
+        .cl-s-#{$i} {
+            width: $width-val * $i;
+        }
+        .cl-offset-#{$i} {
+            margin-left: inherit;
+        }
+        .cl-s-offset-#{$i} {
+            margin-left: $width-val * $i;
+        }
     }
-    .cl-offset-#{$i} {
-        margin-left: inherit;
-    }
-    .cl-s-offset-#{$i} {
-        margin-left: $width-val * $i;
-    }
-
-}
-  .cl-s-0 {
-    display: none !important;
-  }
 }
 
 @media screen and (max-width: 460px) {
     @for $i from 1 through 12 {
-    .cl-xs-#{$i} {
-        width: $width-val * $i;
-    }
-    .cl-offset-#{$i} {
-        margin-left: inherit;
-    }
-    .cl-xs-offset-#{$i} {
-        margin-left: $width-val * $i;
+        .cl-xs-#{$i} {
+            width: $width-val * $i;
+        }
+        .cl-offset-#{$i} {
+            margin-left: inherit;
+        }
+        .cl-xs-offset-#{$i} {
+            margin-left: $width-val * $i;
+        }
     }
 }
-  .cl-xs-0 {
-    display: none !important;
-  }
+
+@media (min-width: 781px) {
+    .cl-0 {
+        display: none !important;
+    }
 }
 
-$i: 1;
-$list: ".cl-#{$i}, .cl-s-#{$i}, .cl-xs-#{$i}";
+@media (min-width: 460px) and (max-width: 780px) {
+    .cl-s-0 {
+        display: none !important;
+    }
+}
 
-  @for $i from (1 + 1) through 12 {
-    $list: "#{$list}, .cl-#{$i}, .cl-s-#{$i}, .cl-xs-#{$i}";
-  }
-  #{$list} {
-      display: inline-block;
-      margin-right: -.25em;
-      min-height: 1px;
-      padding-right: 15px;
-      padding-left: 15px;
-  }
+@media (max-width: 460px) {
+    .cl-xs-0 {
+        display: none !important;
+    }
+}
