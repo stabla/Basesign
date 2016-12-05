@@ -41,7 +41,7 @@ Ok, so, here, we have a grid system.
 You can set a row like that :
    ```
     <div class="row">
-        <div class="cl-X"
+        <div class="cl-X"></div>
     </div
    ```
    Where X is a number between 0 and 12. 0 is for nothing, and 12 is for a 100% width column.
