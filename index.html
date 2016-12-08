@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Basesign.css: Because we love elegance in our browser. </title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <link rel="stylesheet" id="basesign" href="basesign.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assetsdmanifest.json">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Basesign">
+    <meta name="application-name" content="Basesign">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/prism.js"></script>
+    <script>
+        window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div title="Click to desactivate/activate" class="bs-btn-switch active">
+            Basesign.css activated
+        </div>
+        <div class="left-img">
+        </div>
+        <div class="right-main">
+            <div class="project">
+                <h1 class="name-project custom-color-brand"> Basesign.css </h1>
+                <h3 class="description-project custom-color-brand">
+                   Setting better default CSS to make web more elegant.
+                </h3>
+            </div>
+            <div class="bs-base">
+                <ul class="custom-color-grey-2">
+                    <li> Optimal size </li>
+                    <li> Handle spacing </li>
+                    <li> Readable website </li>
+                    <li> Normalizing size </li>
+                </ul>
+            </div>
+            <div>
+                <p>
+                    Setting things that we all usually set. <code>box-sizing: border-border</code> is our friend. <code>html and body</code> have to be fusioned.
+                </p>
+                <p> We're human and we want to make things as elegant as is it possible.</p>
+                <h3 class="custom-color-brand"> Download </h3>
+                <button class="btn">Download v1.0</button>
+
+
+
+                <h5 class="touse-title custom-color-brand"> Classes to use </h5>
+                <div class="touse">
+                    <p> It's easy, you have only two classes to use :</p>
+                    <p><code>.bigger-t</code>: Size passing from &#126; 14px to &#126; 16px.
+                        <br> You can do <code>.normal-t</code> to set a normal size in a element where's set <code>.bigger-t</code>.</p>
+                    <p><code>.bigger-h</code>: Size of h1, h2, h3, h4, h5, h6 are bigger.
+                        <br> You can do <code>.normal-h</code> to set a normal size in a element where's set <code>.bigger-h</code>.</p>
+
+
+                    <div class="announcing-example"> Exemple of basic h1, h2, h3, h4, h5 and text :</div>
+                    <div class="box-exemple">
+                        <div class="box-example-inside">
+                            <h1>h1</h1>
+                            <h2>h2</h2>
+                            <h3>h3</h3>
+                            <h4>h4</h4>
+                            <h5>h5</h5>
+                            <p>The quick brown fox jumps over the lazy dog.</p>
+                        </div>
+                    </div>
+
+                    <p class="announcing-example"> Exemple of <code>.bigger-h</code> and<code>.bigger-t </code>. Biggest size of h1, h2, h3, h4, h5 and text.</p>
+                    <div class="box-exemple">
+                        <div class="title-exemple"></div>
+                        <div class="bigger-h bigger-t box-example-inside">
+                            <h1>h1</h1>
+                            <h2>h2</h2>
+                            <h3>h3</h3>
+                            <h4>h4</h4>
+                            <h5>h5</h5>
+                            <p>The quick brown fox jumps over the lazy dog.</p>
+                        </div>
+                        <div class="code-exemple">
+                            <div class="title-code"></div>
+                            <div class="inside">
+                                <div class="code-exemple">
+                                    <pre><code class="language-html">
+&lt;div class="bigger-h bigger-t"&gt;
+    &lt;h3&gt; Portland &lt;/h3&gt;
+    &lt;p&gt; The &lt;span class="normal-t" &lt; largest city &lt;/span&gt; in the U.S. state of Oregon. &lt;/p&gt;
+&lt;/div&gt;
+                                    </code></pre>
+                                </div>
+                                <div class="title-result"></div>
+                                <div class="bigger-h bigger-t">
+                                    <h3> Portland </h3>
+                                    <p> The <span class="normal-t">largest city</span> in the U.S. state of Oregon.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h5 class="custom-color-brand designtips-title"> Design tips </h5>
+            <div class="design-tips row" id="design-tips-bs">
+                <div class="bigger-t">
+                    <ul>
+                        <li>Newsletters with columns will look better if you use the Justified Alignment.</li>
+                        <li>Make sure you don’t create rivers of white space though.</li>
+                        <li>Use Italics and Bold to point out areas of interest or draw quick reference to information.</li>
+                        <li>Use color for emphasis. Remember, reds draw the most attention if used correctly. It is amazing what one spot of red can do for an ordinary ad.</li>
+                        <li>A website with bad font will be ugly website. But it’s about words too.</li>
+                        <li>Treat text as content.</li>
+                        <li>Use good typography.</li>
+                        <li>Believe “less” is more.</li>
+                        <li>Decorate, but not in abusive way.</li>
+                        <li>Treat text as UI.</li>
+                        <li>Go for simplicity and usability.</li>
+                        <li>For a good readibility, measure amount of characters on a line, 50-80 characters is the best for readibility.</li>
+                        <li>“God is in the detail.” - Ludwig Mies van der Rohe</li>
+                        <li>“Make things as simple as possible but no simpler.” - Albert Einstein</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a class="github-button" href="https://github.com/stabla/Basesign" data-count-href="/stabla/Basesign/stargazers" data-count-api="/repos/stabla/Basesign#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star stabla/Basesign on GitHub">Star</a>
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=CSS%20file%20to%20make%20default%20web%20more%20elegant">
+Tweet</a>    
+               <div>Source code available at <a href="http://www.github.com/stabla/Basesign">stabla/Basesign</a></div>
+                <div>Maintened by<a href="http://www.stabla.me" style=""> Guillaume Bonnet</a></div>
+     
+       </div>
+       
+       
+        </div> <!-- End .right-main -->
+    </div> <!-- End container -->
+</body>
+</html>

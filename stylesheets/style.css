@@ -1,0 +1,348 @@
+@media (max-width: 450px) {
+    .left-img {
+        display: none !important;
+    }
+    .right-main {
+        width: 100% !important;
+        left: 0 !important;
+        padding: 50px 15px !important;
+    }
+    .bs-base ul li {
+        display: block !important;
+        font-size: 1.4em !important;
+    }
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.project .name-project {
+    font-size: 600;
+}
+.project .description-project {
+    margin: 20px 0;
+}
+
+.announcing-example {
+    font-weight: bold;
+}
+
+.box-example-inside {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    background-color: #ded2a8;
+    padding: 0.4em 1em;
+    border: 1px solid #ded2a8;
+    color: #fff;
+    margin: 10px auto;
+    border-radius: 4px;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    background: #918660;
+    border: 1px solid #918660;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    left: 0px;
+}
+
+.left-img {
+    position: fixed;
+    left: 0;
+    float: left;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(45deg, blue, green);
+    background-image: url(../assets/utile-newvx.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow: auto;
+    width: 25%;
+    -webkit-animation: fadeInLeft 1.2s ease;
+    animation: fadeInLeft 1.3s ease;
+    animation-fill-mode: forwards;
+}
+
+.right-main {
+    position: relative;
+    left: 25%;
+    width: 75%;
+    height: 100%;
+    padding: 50px 30px;
+    opacity: 0;
+    animation: fadeInRight 1.2s ease;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+      
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+      from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.bs-base ul {
+    margin: 0 auto;
+}
+.bs-base ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1.6em;
+    color: #ded2a8;
+}
+
+
+
+
+
+/* @media */
+@media (max-width: 764px) {
+  /* line 4, ../sass/style.scss */
+  .header-frame {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+/* Hero & Navbar */
+/* line 101, ../sass/style.scss */
+.background-dark {
+  background: linear-gradient(45deg, #243B55, #141E30);
+}
+
+/* line 105, ../sass/style.scss */
+.nav {
+  background: red;
+  width: 100%;
+  height: 50px;
+}
+
+/* line 111, ../sass/style.scss */
+.nav-right {
+  margin-right: -10px;
+}
+
+/* line 115, ../sass/style.scss */
+.brand {
+  position: relative;
+  left: -112px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* Document blood */
+/* line 194, ../sass/style.scss */
+.box-exemple {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.25em;
+  margin: 2em 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+/* line 199, ../sass/style.scss */
+.box-exemple .title-exemple {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.22);
+  font-size: 1.7rem;
+}
+/* line 205, ../sass/style.scss */
+.box-exemple .title-exemple:before {
+  content: 'Exemple';
+}
+/* line 210, ../sass/style.scss */
+.box-exemple .code-exemple .title-code {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.22);
+  padding: 10px;
+}
+/* line 216, ../sass/style.scss */
+.box-exemple .code-exemple .title-code:before {
+  content: '< / > Exemple ';
+}
+/* line 220, ../sass/style.scss */
+.box-exemple .code-exemple .inside {
+  display: none;
+}
+/* line 222, ../sass/style.scss */
+.box-exemple .code-exemple .inside pre {
+  margin: 0;
+}
+/* line 226, ../sass/style.scss */
+.box-exemple .code-exemple .title-result {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.22);
+  font-size: 1.6rem;
+}
+/* line 232, ../sass/style.scss */
+.box-exemple .code-exemple .title-result:before {
+  content: "Result";
+}
+
+/* tool */
+/* line 316, ../sass/style.scss */
+.custom-color-brand {
+  /*color: #243B55;*/
+    color: #9D8B4F;
+}
+
+/* line 320, ../sass/style.scss */
+.custom-color-grey {
+  color: rgba(123, 137, 148, 0.595);
+}
+
+/* line 324, ../sass/style.scss */
+.custom-color-grey-2 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 328, ../sass/style.scss */
+.custom-color-greyer {
+  color: rgba(123, 137, 148, 0.945);
+}
+
+/* line 332, ../sass/style.scss */
+.custom-color-blank {
+  color: #d6e1e5;
+}
+
+/* line 336, ../sass/style.scss */
+.custom-bg-grey-clear {
+  background-color: rgba(123, 137, 148, 0.142) !important;
+}
+
+/* line 340, ../sass/style.scss */
+.custom-bg-grey {
+  background-color: rgba(123, 137, 148, 0.7) !important;
+}
+
+/* line 344, ../sass/style.scss */
+.custom-bg-greyer {
+  background-color: rgba(123, 137, 148, 0.8) !important;
+}
+
+/* line 372, ../sass/style.scss */
+p code,
+li code {
+  color: #A8AEDE;
+  /*background-color: #FFF7DA;*/
+  border-radius: 4px;
+  padding: 0px 4px;
+  margin: 5px;
+  overflow: auto;
+}
+
+
+.touse-title {
+    margin-top: 80px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: right;
+}
+.footer div {
+    
+    color: #333;
+    margin-top: 10px;
+}
+.footer div a {
+    text-decoration: none;
+    color: #515891;
+}
+
+
+.bs-btn-switch {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    
+    cursor: pointer;
+    border-radius: .25em;
+    padding: .83em 1.23em;
+    background-color: rgba(0, 0, 0, 0.122);
+    color: #43A047;
+    font-size: 0.8em;
+    
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.bs-btn-switch:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: red;
+}
