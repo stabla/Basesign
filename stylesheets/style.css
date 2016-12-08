@@ -32,19 +32,24 @@
     text-align: center;
 }
 
-.btn {
+.download-container {
     display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn {
     background-color: #ded2a8;
     padding: 0.4em 1em;
     border: 1px solid #ded2a8;
     color: #fff;
-    margin: 10px auto;
     border-radius: 4px;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -308,7 +313,7 @@ li code {
 
 
 .touse-title {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .footer {
