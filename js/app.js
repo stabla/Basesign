@@ -1,72 +1,32 @@
 $(document).ready(function () {
-    /*
-        var $navbar = $('#nav-bar');
-        var $header = $('.header-hero');
-        var $hero_text = $header.children();
-    */
-    /******************************/
-    /*  
-    /* Change opacity for hero-text.
-    /*
-    /*****************************/
-    /*  var fadestart = $header.height() / 32;
-      var fadeUntil = 420;
-      var opacity = 0;/*
 
-      /***********************************/
-    /*  
-    /* Navigation bar when scrolling or refreshing.
-    /*
-    /***********************************/
-    /*  var header_height = $header.height();
-      var navbar_height = $navbar.height();
-      var whenToChange = header_height - navbar_height - 40;/*
+     /* For box-example */
+    $('.title-code').on('click', function () {
+        $(this).next().toggle();
+    })
 
-      /* if user refreshing page, load navbar */
-    /*  if ($navbar.offset().top <= whenToChange) {
-        $navbar.removeClass('background-dark');
-        $navbar.find('.brand').removeClass('brand-show');
-    } else {
-        $navbar.addClass('background-dark');
-        $navbar.find('.brand').addClass('brand-show');
-    }
+    var $btn_switch = $('.bs-btn-switch');
+    var stylesheet_state = true; // true for active
 
-    $(window).scroll(function () {
-        var $scroll = $(window).scrollTop();
-/*
-        /* Change opacity for hero-text */
-    /*     if ($scroll <= fadestart) { 
-             opacity = 1;
-         } else if ($scroll <= fadeUntil) {
-             opacity = 1 - $scroll / fadeUntil;
-         }
-         $hero_text.css({
-             'opacity': opacity
-         })
-     /*    
-         /* Nav-bar when scrolling */
-    /* if ($scroll > whenToChange) { 
-            $navbar.addClass('background-dark');
-            if ($('#menu-btn').hasClass('active') === false) {
-                $navbar.find('.brand').addClass('brand-show');
-            }
-        } else if ($scroll < whenToChange) {
-            $navbar.removeClass('background-dark');
-            $navbar.find('.brand').removeClass('brand-show');
+    $btn_switch.on('click', function () {
+
+        if (stylesheet_state === true) {
+            $('#basesign').prop('disabled', true);
+            $btn_switch.html('Basesign.css desactivated');
+            $btn_switch.css({
+                'color': 'red'
+            });
+            stylesheet_state = false;
+        } else {
+            $('#basesign').prop('disabled', false);
+            $btn_switch.html('Basesign.css activated');
+            $btn_switch.css({
+                'color': '#43A047'
+            });
+            stylesheet_state = true;
         }
-    });
-/*
-
-
-    /*  if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-        $('.container').animate({'left':$('.')});
-    }*/
-
-
-
-
-
-
+    })
+    
     /***********************************/
     /*  
     /* Little things.
@@ -126,35 +86,6 @@ $(document).ready(function () {
             });
     });
 
-    /* For box-example */
-    $('.title-code').on('click', function () {
-        $(this).next().toggle();
-    })
+   
 
-    var $btn_switch = $('.bs-btn-switch');
-
-
-
-
-    var stylesheet_state = true; // true for active
-
-    $btn_switch.on('click', function () {
-
-        if (stylesheet_state === true) {
-            $('#basesign').prop('disabled', true);
-            $btn_switch.html('Basesign.css desactivated');
-            $btn_switch.css({
-                'color': 'red'
-            });
-            stylesheet_state = false;
-        } else {
-            $('#basesign').prop('disabled', false);
-            $btn_switch.html('Basesign.css activated');
-            $btn_switch.css({
-                'color': '#43A047'
-            });
-            stylesheet_state = true;
-        }
-    })
-    
 });
