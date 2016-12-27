@@ -118,9 +118,13 @@ body {
     font-size: 2.6rem !important;
   }
 
+  .paragraph {
+    line-height: 1.4 !important;
+  }
+
   p,
   a {
-    line-height: 1.4 !important;
+    line-height: 1.0 !important;
   }
 
   p {
@@ -128,8 +132,10 @@ body {
   }
 }
 @media (min-width: 992px) {
+  /* Nothing at htis moment */
 }
 @media (min-width: 1200px) {
+    /* Nothing at htis moment */
 }
 
 /*
@@ -301,10 +307,14 @@ h5,
   font-size: 2.61803rem;
 }
 
+.paragraph {
+  line-height: 155%;
+  /* I wanted 160%, but 150% is fine too, so 150% */
+}
+
 p,
 a {
-    line-height: 155%;
-    /* I wanted 160%, but 150% is fine too, so 150% */
+    line-height: 100%;
 }
 
 p {
