@@ -13,22 +13,21 @@
     height: 100%;
     margin: 0 auto;
     padding: 40px 30px;
-    opacity: 0;
-    animation: fadeInRight 1.2s ease;
-    animation-fill-mode: forwards;
 }
 
-.custom-color-brand {
-    color: #243B55;
-}
-p code,
-li code {
-    color: #A8AEDE;
+code {
+    color: #d68d03;
+    font-size: 12px;
     border-radius: 4px;
-    padding: 0px 4px;
     margin: 5px;
     overflow: auto;
 }
+
+
+a {
+    color: #d64203;
+}
+
 
 
 /*
@@ -76,14 +75,20 @@ li code {
 }
 
 /*
+ * General
+ */
+
+.part-title {
+    margin-top: 50px;
+    color: #243B55;
+}
+
+/*
  * About
  */
 .project {
     margin-bottom: 30px;
     text-align: center;
-}
-.project .name-project {
-    font-size: 600;
 }
 .project .description-project {
     margin: 20px 0;
@@ -94,6 +99,7 @@ li code {
     margin: 0 15px 15px;
     color: #333;
 }
+
 
 /*
  * Download
@@ -108,9 +114,10 @@ li code {
     border: none;
     background: linear-gradient(270deg, #e7c10a, #d68d03, #d64203);
     background-size: 600% 600%;
-    -webkit-animation: AnimationName 59s ease infinite;
-    -moz-animation: AnimationName 59s ease infinite;
-    animation: AnimationName 59s ease infinite;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    animation-direction: alternate-reverse;
     color: #fff;
     border-radius: 4px;
     font-size: 1.5em;
@@ -120,70 +127,58 @@ li code {
     transition: all 0.4s ease;
     cursor: pointer;
 }
-.btn:hover {
-    background: #e7c10a;
+.download-with-bower {
+    margin-top: 20px;
 }
-
-
+.download-with-bower a {
+    text-decoration: none;
+}
+.download-with-bower li {
+    line-height: 2;
+}
 
 
 /*
- * Classes to use
+ * Example
  */
-.announcing-example {
-    font-weight: bold;
+.example-block {
+    width: 90%;
+    margin: 0 auto;
+}
+.preview-block h1, .preview-block h2, .preview-block h3, .preview-block h4, .preview-block h5 {
+    display: inline-block;
 }
 
-/* 
- * Relative to box 
- */
-.box-exemple {
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 0.25em;
-    margin: 2em auto;
-    width: 60%;
-    /*margin: 2em 0;*/
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+.header-block {
+    border-bottom: 1px solid #ddd;
 }
-.box-exemple .title-exemple {
-    padding: 10px;
+
+
+.header-block .describe-example, .header-block .preview-button, .header-block .code-button {
+    font-weight: 200;
     text-transform: uppercase;
-    font-weight: 800;
-    color: rgba(0, 0, 0, 0.22);
-    font-size: 1.7rem;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
 }
-.box-exemple .title-exemple:before {
-    content: 'Exemple';
+.header-block .describe-example {
+    color: #d64203;
+    cursor: auto;
 }
-.box-example-inside {
-    text-align: center;
+.header-block .preview-button {
+    margin-right: 5px;
 }
-.box-exemple .code-exemple .title-code {
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    font-size: 1.6rem;
-    font-weight: 800;
-    color: rgba(0, 0, 0, 0.22);
-    padding: 10px;
+
+.header-block .preview-button.active, .header-block .code-button.active {
+    border-bottom: 2px solid #d64203;
 }
-.box-exemple .code-exemple .title-code:before {
-    content: '< / > Exemple ';
+
+.preview-block, .code-block {
+    padding: 25px;
 }
-.box-exemple .code-exemple .inside {
-    display: none;
-}
-.box-exemple .code-exemple .inside pre {
-    margin: 0;
-}
-.box-exemple .code-exemple .title-result {
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: rgba(0, 0, 0, 0.22);
-    font-size: 1.6rem;
-}
-.box-exemple .code-exemple .title-result:before {
-    content: "Result";
-}
+
 
 /*
  * Design Tips
@@ -296,31 +291,3 @@ li code {
     }
 }
 
-
-@-webkit-keyframes fadeInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
-    }
-}
-
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
-    }
-}

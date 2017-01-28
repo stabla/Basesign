@@ -1,0 +1,14 @@
+{
+  "name": "Basesign",
+  "homepage": "https://stabla.github.io/Basesign/",
+  "authors": [
+    "stabla <giomebs@gmail.com>"
+  ],
+  "description": "CSS file to make default web more elegant.",
+  "main": "basesign.css",
+  "keywords": [
+    "elegance",
+    "css"
+  ],
+  "license": "MIT"
+}

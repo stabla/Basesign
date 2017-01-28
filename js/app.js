@@ -1,10 +1,5 @@
 $(document).ready(function () {
 
-     /* For box-example */
-    $('.title-code').on('click', function () {
-        $(this).next().toggle();
-    })
-
     var $btn_switch = $('.bs-btn-switch');
     var stylesheet_state = true; // true for active
 
@@ -87,5 +82,29 @@ $(document).ready(function () {
     });
 
    
-
+    $('.code-button').on('click', function() {
+        if (!$(this).hasClass('active')) {
+            $(this).prev().removeClass('active');
+            $(this).addClass('active');
+            
+            
+            $(this).parent().parent().find('.preview-block').addClass('hidden');
+            $(this).parent().parent().find('.code-block').removeClass('hidden');
+            
+        }
+    })
+    
+     $('.preview-button').on('click', function() {
+        if (!$(this).hasClass('active')) {
+            $(this).next().removeClass('active');
+            $(this).addClass('active');
+            
+            
+            $(this).parent().parent().find('.code-block').addClass('hidden');
+            $(this).parent().parent().find('.preview-block').removeClass('hidden');
+            
+        }
+    })
+    
+    
 });
