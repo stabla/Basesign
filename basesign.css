@@ -97,7 +97,7 @@ a, area, button, input, label, select, summary, textarea {
 
 p,
 a {
-    line-height: 100%;
+    line-height: 1.4;
 }
 
 p {
