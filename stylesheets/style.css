@@ -115,9 +115,9 @@ a {
     border: none;
     background: linear-gradient(270deg, #e7c10a, #d68d03, #d64203);
     background-size: 600% 600%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
     animation-direction: alternate-reverse;
     color: #fff;
     border-radius: 4px;
@@ -144,7 +144,7 @@ a {
  */
 .example-block {
     width: 90%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .preview-block h1, .preview-block h2, .preview-block h3, .preview-block h4, .preview-block h5 {
     display: inline-block;
