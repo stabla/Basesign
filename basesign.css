@@ -233,7 +233,7 @@ input[type="image"] {
     /* Saf 5.1+, IE 8+, Op 9+  */
     width: auto;
 }
-
+/*
  * Fix font-family for next tags.
  *
  */
