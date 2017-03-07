@@ -251,45 +251,6 @@ xmp {
     word-break: break-all;
 }
 
-/*
- * Reponsive
- */
-
-
-@media (max-width: 768px) {
-  textarea {
-    font-size: 14px !important;
-    font-size: 0.8rem !important;
-  }
-
-  .bigger-t {
-    /*
-     * If you use 16px for body, we change the size for biggest in responsive.
-     */
-    font-size: 16px !important;
-    font-size: 1rem !important;
-  }
-  .bigger-t textarea {
-    font-size: 16px !important;
-    font-size: 1rem !important;
-  }
-  .paragraph {
-    line-height: 1.4 !important;
-  }
-  p,
-  a {
-    line-height: 1.0 !important;
-  }
-}
-
-
-@media (min-width: 992px) {
-  /* Nothing at htis moment */
-}
-@media (min-width: 1200px) {
-    /* Nothing at htis moment */
-}
-
 
 
 /*    = h
@@ -310,8 +271,6 @@ h5,
     padding: 0;
     font-weight: 400;
 }
-
-
 
 
 /* h1 .h1 little */
@@ -398,33 +357,33 @@ h5,
 
 
 h1, .h1, .normal-h h1, .normal-h .h1, .normal-h1 {
-    font-size: 48px !important;
-    font-size: 4.8rem !important;
-    line-height: 1.2 !important;
+    font-size: 48px;
+    font-size: 4.8rem;
+    line-height: 1.2;
 }
 
 h2, .h2, .normal-h h2, .normal-h .h2, .normal-h2 {
-    font-size: 40px !important;
-    font-size: 4rem !important;
-    line-height: 1.3 !important;
+    font-size: 40px;
+    font-size: 4rem;
+    line-height: 1.3;
 }
 
 h3, .h3, .normal-h h3, .normal-h .h3, .normal-h3 {
-    font-size: 32px !important;
-    font-size: 3.2rem !important;
-    line-height: 1.4 !important;
+    font-size: 32px;
+    font-size: 3.2rem;
+    line-height: 1.4;
 }
 
 h4, .h4, .normal-h h4, .normal-h .h4, .normal-h4 {
-    font-size: 26px !important;
-    font-size: 2.6rem !important;
-    line-height: 1.4 !important;
+    font-size: 26px;
+    font-size: 2.6rem;
+    line-height: 1.4;
 }
 
 h5, .h5, .normal-h h5, .normal-h .h5, .normal-h5 {
-    font-size: 22px !important;
-    font-size: 2rem !important;
-    line-height: 1.4 !important;
+    font-size: 22px;
+    font-size: 2rem;
+    line-height: 1.4;
 }
 
 
@@ -563,4 +522,45 @@ html input[disabled] {
 }
 .hidden {
     display: none;
+}
+
+
+
+/*
+ * Reponsive
+ */
+
+
+@media (max-width: 768px) {
+  textarea, input, p {
+    font-size: 14px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .bigger-t {
+    /*
+     * If you use 16px for body, we change the size for biggest in responsive.
+     */
+    font-size: 16px !important;
+    font-size: 1rem !important;
+  }
+  .bigger-t textarea {
+    font-size: 16px !important;
+    font-size: 1rem !important;
+  }
+  .paragraph {
+    line-height: 1.4 !important;
+  }
+  p,
+  a {
+    line-height: 1.0 !important;
+  }
+}
+
+
+@media (min-width: 992px) {
+  /* Nothing at htis moment */
+}
+@media (min-width: 1200px) {
+    /* Nothing at htis moment */
 }
